@@ -7,6 +7,7 @@
 
 Title : How to fight Overweight problem in United State?
 
+
 The National Center for Health Statistics estimates that, for 2015-2016 in the U.S., 39.8% of adults aged 20 and over were obese (including 7.6% with severe obesity) and that another 31.8% were overweight.  (Wiki)
 (I think this is easier to find dataset)
 Possible discuss question:
@@ -22,6 +23,7 @@ NLG technique could be aply to give user recommendation
 
 Title :  Skyrocketing rents in bay area
 
+
 Housing rent in Bay area cities have been growing massively year upon year. The median monthly rent paid by Bay Area households across apartments and homes of various sizes and various levels of quality is more. Across the rest of the country, the median rent is less than half of those figures. (From Wiki)
 - Analysis of city by city rent in bay area and the rest of US
 - Rent increase quotient
@@ -36,6 +38,7 @@ Housing rent in Bay area cities have been growing massively year upon year. The 
 3. Project Proposal #3
 
 Title : Decentralized voting app
+
 
 This application is to provide a decentralized voting mechanism where everyone has a fair role to play. It’s just like Blockchain mechanism. Nobody controls it and everyone is an owner and each vote is peer-peer verified. The voting system is 100% transparent, no central authority owning it, voters identification remain confidential. Also, people don’t have to leave their sofa to caste the vote but can do it at their convenience. 
 
