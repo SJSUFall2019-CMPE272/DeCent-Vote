@@ -1,4 +1,5 @@
-# ProjectGroup-22
+# ProjectGroup-22 : Decentralized voting app
+
 
 Title : Decentralized voting app
 
