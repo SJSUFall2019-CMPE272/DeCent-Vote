@@ -1,9 +1,11 @@
 # ProjectGroup-22 : Decentralized voting
 
 
-1. Final Project Name: Decentralized voting
+<b> 1. Final Project Name: Decentralized voting </b>
 
-2. Abstract:
+<br/><br/>
+
+<b> 2. Abstract: </b>
 
 This application is to provide a web-based decentralised voting application where each and every voter has a fair role to play. It uses blockchain mechanism and prevents double-voting and fraudulent voting. In this application, each voter registers with valid details and then votes to the corresponding party. Each registered voter has a unique voter ID. A set of authentication keys is generated against each voter. When a user votes, it is checked whether it is the first time or it is already done before. And it is ensured that there can be utmost only one vote casted from each voter. After passing through this verification, the vote is then recorded as done. All votes that are accepted require consensus across the network. No single node controls it and every node is an owner and each vote is peer-peer verified. 
 
@@ -17,13 +19,14 @@ It provides:
  
  c. Data integrity: Ensures that once voted, it cannot be manipulated.
 
-<br/>
+<br/><br/>
 
 
 3. <b> Architecture diagram </b>
 
 <img width="628" alt="usethis" src="https://user-images.githubusercontent.com/54567577/66450564-df19df80-ea0d-11e9-869f-cd965905aa2c.png">
 
+<br/><br/>
 
 4. Technology Stack
 &nbsp;Programming languages & Libraries: Java, Hyperledger frameworks\
