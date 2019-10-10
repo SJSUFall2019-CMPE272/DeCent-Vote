@@ -17,6 +17,7 @@ It provides:
  
  c. Data integrity: Ensures that once voted, it cannot be manipulated.
 
+<br/>
 
 
 3. Architecture diagram
