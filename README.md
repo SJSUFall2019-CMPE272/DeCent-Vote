@@ -1,4 +1,4 @@
-# ProjectGroup-22 : Decentralized voting application
+# Project-22 : Decentralized voting application
 
 
 <h1> <b> Decentralized voting application </b> </h1>
