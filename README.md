@@ -11,8 +11,12 @@ Given that every recorded vote on the blockchain needs consensus on the network 
 
 It provides:
  a. Anonymity of voters: ensures that whoever is casting a vote, they are authorised to do so.
+ 
  b. Only one vote per person: No one would be able to vote more than once in the same election.
+ 
  c. Integrity of the voter: Ensures that once voted, it cannot be manipulated.
+
+
 
 3. Architecture diagram
 
