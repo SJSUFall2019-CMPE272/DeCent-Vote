@@ -3,7 +3,7 @@
 
 <b> 1. Final Project Name: Decentralized voting </b>
 
-<br/><br/>
+<br/>
 
 <b> 2. Abstract: </b>
 
@@ -19,16 +19,16 @@ It provides:
  
  c. Data integrity: Ensures that once voted, it cannot be manipulated.
 
-<br/><br/>
+<br/>
 
 
-3. <b> Architecture diagram </b>
+<b> 3. Architecture diagram </b>
 
 <img width="628" alt="usethis" src="https://user-images.githubusercontent.com/54567577/66450564-df19df80-ea0d-11e9-869f-cd965905aa2c.png">
 
-<br/><br/>
+<br/>
 
-4. Technology Stack
+<b> 4. Technology Stack </b>
 &nbsp;Programming languages & Libraries: Java, Hyperledger frameworks\
 &nbsp;Web Technologies: HTML5, CSS3, JavaScript, React, Node.JS, Angular JS, JSON, JWT,\
 &nbsp;&nbsp;Mongodb, IBM Blockchain Platform and the IBM Kubernetes Service\
