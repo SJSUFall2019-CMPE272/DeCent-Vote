@@ -10,11 +10,12 @@ This application is to provide a web-based decentralised voting application wher
 Given that every recorded vote on the blockchain needs consensus on the network and the fact that it is merely impossible to manipulate too many systems at the time, the chances of fraudulent votes are very low. The voting system is 100% transparent, no central authority owns it and the voters identification remains confidential. Also, people don’t have to leave their sofa to cast their votes but they can do it online at their own convenience. Since this application is de-centralized, it ensures high availability and data security.
 
 It provides:
+
  a. Anonymity of voters: ensures that whoever is casting a vote, they are authorised to do so.
  
  b. Only one vote per person: No one would be able to vote more than once in the same election.
  
- c. Integrity of the voter: Ensures that once voted, it cannot be manipulated.
+ c. Data integrity: Ensures that once voted, it cannot be manipulated.
 
 
 
