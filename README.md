@@ -32,8 +32,6 @@ It provides:<br>
 
 [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service) is a managed container service that provides intelligent scheduling, self-healing, horizontal scaling, service discovery and load balancing and configuration management. The Kubernetes also provide container security, isolation policies and many tools in cloud deployment. <br>
 
-[IBM Blockchain Platform Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform) helps developers to create, test and debug smart contracts, connect to Hyperledger Fabric environments, and build applications that transact on your blockchain network. <br>
-
 
 <h1> <b> Technologies used </b> </h1>
 
