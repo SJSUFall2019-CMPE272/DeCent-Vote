@@ -21,7 +21,8 @@ It provides:<br>
 
 <h1> <b> Architecture </b> </h1>
 
-<img width="628" alt="usethis" src="https://user-images.githubusercontent.com/54567577/66450564-df19df80-ea0d-11e9-869f-cd965905aa2c.png">
+![image](https://user-images.githubusercontent.com/54567577/66623629-664b8c80-eba1-11e9-9267-cb094bdf0cd0.png)
+
 
 <br/>
 
