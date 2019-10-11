@@ -26,10 +26,26 @@ It provides:<br>
 
 <br/>
 
+<h1> <b> Component </b> </h1>
+
+(IBM Blockchain Platform)[https://cloud.ibm.com/docs/services/blockchain/howto/ibp-v2-deploy-iks.html#ibp-v2-deploy-iks] provide to control and manage yblockchain components and certificates from one central console. It also allows flexible Kubernetes based deployment. <br>
+
+(IBM Cloud Kubernetes Service)[https://www.ibm.com/cloud/container-service] is a managed container service that provides intelligent scheduling, self-healing, horizontal scaling, service discovery and load balancing and configuration management. The Kubernetes also provide container security, isolation policies and many tools in cloud deployment. <br>
+
+(IBM Blockchain Platform Extension for VS Code)[https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform] helps developers to create, test and debug smart contracts, connect to Hyperledger Fabric environments, and build applications that transact on your blockchain network. <br>
+
+
 <h1> <b> Technologies used </b> </h1>
-Programming languages & Libraries: Java, Hyperledger frameworks. <br>
-Web Technologies: HTML5, CSS3, JavaScript, React, Node.JS, Angular JS, JSON, JWT, Mongodb, IBM Blockchain Platform and the IBM Kubernetes Service. <br>
-Algorithm: HMAC-SHA256 encryption algorithm and elliptic curve cryptography. <br>
+(Hyperledger Fabric)[https://github.com/hyperledger/fabric#releases] v1.4.3 is a platform for distributed ledger solutions. It is designed to support pluggable implementations of different components, and accommodate the complexity that exist across the economic ecosystem. <br>
+
+(Vue.js)[https://github.com/vuejs/vue] is an open-source JavaScript framework, which can easily scale between a library and a framework depending on different use cases. <br>
+
+(Node.js)[https://nodejs.org/en/] is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code. <br>
+
+(HTML5[https://www.w3.org/html/] is a software solution stack that defines the properties of web page content by implementing a markup based pattern to it. <br>
+
+(React)[https://reactjs.org/] is a JavaScript library for building user interfaces <br>
+
 
 
 <h1><b> Team </b> </h1>
