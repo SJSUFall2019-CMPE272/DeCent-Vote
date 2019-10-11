@@ -36,7 +36,7 @@ It provides:<br>
 
 
 <h1> <b> Technologies used </b> </h1>
-[Hyperledger Fabric v1.4.3](https://github.com/hyperledger/fabric#releases) is a platform for distributed ledger solutions. It is designed to support pluggable implementations of different components, and accommodate the complexity that exist across the economic ecosystem. <br>
+[Hyperledger Fabric v1.4.3](https://www.hyperledger.org/projects/fabric) is a platform for distributed ledger solutions. It is designed to support pluggable implementations of different components, and accommodate the complexity that exist across the economic ecosystem. <br>
 
 [Vue.js](https://github.com/vuejs/vue) is an open-source JavaScript framework, which can easily scale between a library and a framework depending on different use cases. <br>
 
