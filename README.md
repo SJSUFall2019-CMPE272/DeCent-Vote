@@ -21,7 +21,7 @@ It provides:<br>
 
 <h1> <b> Architecture </b> </h1>
 
-![image](https://user-images.githubusercontent.com/54567577/66623629-664b8c80-eba1-11e9-9267-cb094bdf0cd0.png)
+![image](https://user-images.githubusercontent.com/54567577/66624642-d9570200-eba5-11e9-9c5d-721e96b9310c.png)
 
 
 <br/>
