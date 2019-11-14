@@ -18,6 +18,7 @@ It provides:<br>
 
 <br/>
 
+<h1> <b> User Persona </b> </h1>
 
 <img width="964" alt="Screen Shot 2019-11-13 at 6 00 54 PM" src="https://user-images.githubusercontent.com/5762548/68820268-9cb47580-063f-11ea-97ca-26b494d90624.png">
 
