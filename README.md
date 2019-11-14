@@ -31,12 +31,12 @@ It provides:<br>
 <br/>
 <h1> <b> Hill Statement for Vote DeCent</b> </h1>
 
-<b>Who-</b>
-Any user that requires a democratic voting/polling system.
-<b>What-</b>
-A decentralized voting system to ensure a fair voting process is followed ie, no vote tampering occurs by using a blockchain mechanism to validate the votes and log the voters picks.
-<b>Wow Factor-</b>
-Assuring that the vote cast remains influence free and untampered so as to preserve the integrity of the process.
+<b>Who-</b><br>
+Any user that requires a democratic voting/polling system.<br>
+<b>What-</b><br>
+A decentralized voting system to ensure a fair voting process is followed ie, no vote tampering occurs by using a blockchain mechanism to validate the votes and log the voters picks.<br>
+<b>Wow Factor-</b><br>
+Assuring that the vote cast remains influence free and untampered so as to preserve the integrity of the process.<br>
 <br/>
 <h1> <b> Component </b> </h1>
 
