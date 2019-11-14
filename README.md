@@ -17,6 +17,7 @@ It provides:<br>
 
 <br/>
 
+
 <h1> <b> User Persona </b> </h1>
 
 <img width="964" alt="Screen Shot 2019-11-13 at 6 00 54 PM" src="https://user-images.githubusercontent.com/5762548/68820268-9cb47580-063f-11ea-97ca-26b494d90624.png">
@@ -28,7 +29,15 @@ It provides:<br>
 
 
 <br/>
+<h1> <b> Hill Statement for Vote DeCent</b> </h1>
 
+<b>Who-</b>
+Any user that requires a democratic voting/polling system.
+<b>What-</b>
+A decentralized voting system to ensure a fair voting process is followed ie, no vote tampering occurs by using a blockchain mechanism to validate the votes and log the voters picks.
+<b>Wow Factor-</b>
+Assuring that the vote cast remains influence free and untampered so as to preserve the integrity of the process.
+<br/>
 <h1> <b> Component </b> </h1>
 
 [IBM Blockchain Platform](https://cloud.ibm.com/docs/services/blockchain/howto/ibp-v2-deploy-iks.html#ibp-v2-deploy-iks) provide to control and manage yblockchain components and certificates from one central console. It also allows flexible Kubernetes based deployment. <br>
