@@ -17,19 +17,11 @@ It provides:<br>
 
 <br/>
 
-
 <h1> <b> User Persona </b> </h1>
 
 <img width="964" alt="Screen Shot 2019-11-13 at 6 00 54 PM" src="https://user-images.githubusercontent.com/5762548/68820268-9cb47580-063f-11ea-97ca-26b494d90624.png">
 
-
-<h1> <b> Architecture </b> </h1>
-
-![image](https://user-images.githubusercontent.com/54567577/66628736-90f31080-ebb4-11e9-9d27-76ee4016257a.png)
-
-
-<br/>
-<h1> <b> Hill Statement for Vote DeCent</b> </h1>
+<h1> <b> Hill Statement</b> </h1>
 
 <b>Who-</b><br>
 Any user that requires a democratic voting/polling system.<br>
@@ -37,6 +29,14 @@ Any user that requires a democratic voting/polling system.<br>
 A decentralized voting system to ensure a fair voting process is followed ie, no vote tampering occurs by using a blockchain mechanism to validate the votes and log the voters picks.<br>
 <b>Wow Factor-</b><br>
 Assuring that the vote cast remains influence free and untampered so as to preserve the integrity of the process.<br>
+<br/>
+
+
+<h1> <b> Architecture </b> </h1>
+
+![image](https://user-images.githubusercontent.com/54567577/66628736-90f31080-ebb4-11e9-9d27-76ee4016257a.png)
+
+
 <br/>
 <h1> <b> Component </b> </h1>
 
