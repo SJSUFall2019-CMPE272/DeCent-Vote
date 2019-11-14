@@ -1,8 +1,6 @@
 # Project-22 : DeCent Vote 
- <p style="left:100px;"> - A Decentralized voting application </p>
 
-
-<h1> <b> DeCent Vote is Decentralized voting application </b> </h1>
+<h1> <b> DeCent Vote is a Decentralized voting application </b> </h1>
 
 <br/>
 
