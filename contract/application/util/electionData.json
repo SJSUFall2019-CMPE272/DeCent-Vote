@@ -1,0 +1,10 @@
+{
+  "electionName": "2021 Election",
+  "electionCountry": "USA",
+  "electionYear": 2021,
+  "ballot":[
+    {"color":"Red", "name":"Jack Hodgins"},
+    {"color":"Green", "name":"Temperence Brennan"},
+    {"color":"Blue", "name":"Shawn Booth"}
+  ]
+}

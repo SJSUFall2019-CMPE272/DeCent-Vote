@@ -1,0 +1,36 @@
+{
+    "name": "voterContract",
+    "version": "1.0",
+    "description": "DeCent Vote Contract",
+    "main": "index.js",
+    "engines": {
+        "node": ">=8",
+        "npm": ">=5"
+    },
+    "scripts": {        
+        "start": "fabric-chaincode-node start"
+    },
+    "engineStrict": true,
+    "dependencies": {
+        "fabric-contract-api": "1.4.1",
+        "fabric-shim": "^1.4.1",
+        "mem": "^5.1.1",
+        "os-locale": "^4.0.0"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "chai-as-promised": "^7.1.1",
+        "eslint": "^6.0.1",
+        "mocha": "^6.1.4",
+        "nyc": "^14.1.1",
+        "sinon": "^7.3.2",
+        "sinon-chai": "^3.3.0",
+        "winston": "^3.2.1"
+    },
+    "nyc": {
+        "exclude": [            
+            "coverage/**",
+            "test/**"
+        ]
+    }
+}
