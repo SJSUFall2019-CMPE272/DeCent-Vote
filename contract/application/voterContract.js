@@ -27,8 +27,8 @@ class MyAssetContract extends Contract {
 
     if (currElections.length === 0) {
 
-      let electionStartDate = await new Date(2021, 01, 10);
-      let electionEndDate = await new Date(2021, 01, 12);
+      let electionStartDate = await new Date();
+      let electionEndDate = await  new Date(electionStartDate.setMonth(electionStartDate.getMonth()+2));
       //create election
       election = await new Election(electionData.electionName, electionData.electionCountry,
       electionData.electionYear, electionStartDate, electionEndDate);
@@ -39,12 +39,12 @@ class MyAssetContract extends Contract {
     }
 
     electionData.ballot.forEach(record => {
-      let item = await new VotableItem(ctx, record.color, record.name);
+      let item = new VotableItem(ctx, record.color, record.name);
       votableItems.push(item);
     });
 
     votableItems.forEach(record => {
-      await ctx.stub.putState(record.votableId, Buffer.from(JSON.stringify(record)));
+      ctx.stub.putState(record.votableId, Buffer.from(JSON.stringify(record)));
     });
 
     //generate ballots for all voters
@@ -141,7 +141,7 @@ class MyAssetContract extends Contract {
       return response;
     }
   }
-  
+
     /*
   Checks to see if a key exists
    */
