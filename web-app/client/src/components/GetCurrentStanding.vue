@@ -1,8 +1,8 @@
 <template>
   <div class="posts">
-    <h1>Get the Current Poll Standings</h1>
+    <h1 v-on:click="getCurrentStanding()">Get the Current Poll Standings</h1>
 
-    <button v-on:click="getCurrentStanding()">Check Poll</button>
+    <!-- <button v-on:click="getCurrentStanding()">Check Poll</button> -->
 
     <br>
     <span v-if="response">
@@ -32,6 +32,10 @@ export default {
   },
   components: {
     VueInstantLoadingSpinner
+  },
+  mounted: function(){
+  //alert();
+  getCurrentStanding();
   },
   methods: {
     async getCurrentStanding() {

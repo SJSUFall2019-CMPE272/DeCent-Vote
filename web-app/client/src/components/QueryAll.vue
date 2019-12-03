@@ -1,7 +1,34 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
+
 <template>
   <div class="posts">
     <h1>Current State: All Key-Value Pairs in World State</h1>
     <button v-on:click="queryAll()">Query All Assets</button>
+
+<!-- <div id="textExample">
+  <table class="table table-bordered">
+			<thead>
+				<tr>
+					<th> Month</th>
+					<th> Opening Principal</th>
+					<th> Principal Taken</th>
+					<th> Interest</th>
+					<th> Payment</th>
+					<th> Repayment Date</th>
+					<th> Closing Principal</th>
+				</tr>
+			</thead>
+			<tr v-bind:key="carEntry.Key" v-for="carEntry in response">
+				{{carEntry.Record}}
+			</tr>
+
+
+		</table>
+</div> -->
+
+    <!-- <div v-bind:key="carEntry.Key" v-for="carEntry in response">
+      <p>{{ carEntry.Key }} | {{ carEntry.Record }} </p>
+    </div> -->
 
     <div v-bind:key="carEntry.Key" v-for="carEntry in response">
       <p>{{ carEntry.Key }} | {{ carEntry.Record }}</p>
@@ -21,6 +48,9 @@ export default {
       response: {}
     };
   },
+  tabledata: {
+   
+  },
   components: {
     VueInstantLoadingSpinner
   },
@@ -38,6 +68,7 @@ export default {
     async hideSpinner() {
       this.$refs.Spinner.hide();
     }
+    
   }
 };
 </script>

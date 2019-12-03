@@ -4,9 +4,9 @@
         <nav v-bind:class="active" v-on:click.prevent>
         <router-link to="/">Home</router-link>&nbsp;          
         <router-link to="/castBallot">Cast Ballot</router-link>&nbsp;
-        <router-link to="/QueryAll">QueryAll</router-link>
-        <router-link to="/queryWithQueryString">Query by Type</router-link>&nbsp;
-        <router-link to="/queryByKey">Query by Key</router-link>&nbsp;
+        <!-- <router-link to="/QueryAll">QueryAll</router-link> -->
+        <!-- <router-link to="/queryWithQueryString">Query by Type</router-link>&nbsp;
+        <router-link to="/queryByKey">Query by Key</router-link>&nbsp; -->
         <router-link to="/getCurrentStanding">Get Poll Standings</router-link>&nbsp;
         <router-link to="/">Sign Up/Login</router-link>&nbsp;
 
