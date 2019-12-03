@@ -1,5 +1,7 @@
 <template>
   <div class="posts">
+    <div class="AppAside"></div>
+    <div id="app" class="AppForm">
     <h1>Cast Ballot</h1>
     <input type="radio" id="one" value="Republican" v-model="picked">
     <label for="one">Donald Trump (Republican)</label>
@@ -40,6 +42,7 @@
     <br>
     <vue-instant-loading-spinner id="loader" ref="Spinner"></vue-instant-loading-spinner>
   </div>
+  </div>
 </template>
 
 <script>
@@ -61,18 +64,14 @@ export default {
   methods: {
     async castBallot() {
       await this.runSpinner();
-
       const electionRes = await PostsService.queryWithQueryString('election');
-
       let electionId = electionRes.data[0].Key;
-
       console.log("picked: ");
       console.log(this.picked);
       console.log("voterId: ");
       console.log(this.input.voterId);
       this.response = null;
 
- 
 
       //error checking for making sure to vote for a valid party
       if (this.picked === null ) {
@@ -130,3 +129,7 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+</style>
