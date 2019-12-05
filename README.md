@@ -38,7 +38,10 @@ Assuring that the vote cast remains influence free and untampered so as to prese
 
 
 <br/>
+
 <h1> <b> Component </b> </h1>
+![image](https://github.com/SJSUFall2019-CMPE272/DeCent-Vote/blob/master/Jake%20(1).pdf)
+
 
 [IBM Blockchain Platform](https://cloud.ibm.com/docs/services/blockchain/howto/ibp-v2-deploy-iks.html#ibp-v2-deploy-iks) provide to control and manage yblockchain components and certificates from one central console. It also allows flexible Kubernetes based deployment. <br>
 
