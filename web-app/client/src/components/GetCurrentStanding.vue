@@ -1,22 +1,20 @@
 <template>
   <div class="posts">
-    <h1 v-on:click="getCurrentStanding()">Get the Current Poll Standings</h1>
-
+    
     <!-- <button v-on:click="getCurrentStanding()">Check Poll</button> -->
 
-    <br>
     <span v-if="response">
       <b>{{ response }}</b>
     </span>
-    <br>
     <vue-instant-loading-spinner id='loader' ref="Spinner"></vue-instant-loading-spinner>
     <div class="chart-wrapper">
+      <h1 class="headinPoll" style="text-align: left;" v-on:click="getCurrentStanding()">Poll Standings</h1>
       <chart :options="chartOptionsBar"></chart>
     </div>
   </div>
 </template>
-
 <script>
+
 import PostsService from "@/services/apiService";
 import VueInstantLoadingSpinner from "vue-instant-loading-spinner/src/components/VueInstantLoadingSpinner.vue";
 import { Bar } from "vue-chartjs";
@@ -56,17 +54,30 @@ export default {
       console.log(currentStanding);
 
       this.chartOptionsBar = {
+        
         xAxis: {
           data: [
-            "Democrat",
-            "Green",
-            "Independent",
-            "Libertarian",
-            "Republican"
-          ]
+            "Sanders",
+            "Warren",
+            "Buttigieg",
+            "Yang",
+            "Biden"
+
+            // "Democrat",
+            // "Green",
+            // "Independent",
+            // "Libertarian",
+            // "Republican"
+          ],
+          gridLines: {
+						display: true
+						}
         },
         yAxis: {
-          type: "value"
+          type: "value",
+          gridLines: {
+						display: true
+            }   
         },
         series: [
           {
@@ -81,7 +92,26 @@ export default {
             fontSize: 24
           }
         },
-        color: ["#127ac2"]
+        legend: {
+					display: false
+				},
+        // pointBackgroundColor: 'white',
+        borderWidth: 1,
+				// pointBorderColor: '#249EBF',
+        color: ["#2c3e50"],
+        responsive: true,
+        maintainAspectRatio: false,
+        // height: 500,
+        // width:500,
+        tooltips: {
+					enabled: true,
+					mode: 'single',
+					callbacks: {
+						label: function(currentStanding, data) {
+							return '$' + currentStanding.yLabel;
+						}
+					}
+				},
       };
       // this.response = apiResponse.data;
       // this.renderChart(this.datacollection, this.options)
@@ -96,3 +126,21 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.chart-wrapper{
+      background-image: url("img/faded.jpeg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+}
+
+.headinPoll{
+  padding-left: 10%;
+}
+
+/* .posts {
+        background-image: url("img/faded.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+} */
+</style>

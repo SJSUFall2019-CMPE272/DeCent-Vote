@@ -2,17 +2,25 @@
 
     <div id="app"> <!-- Main Menu on the top-->  
         <nav v-bind:class="active" v-on:click.prevent>
-        <router-link to="/">Home</router-link>&nbsp;          
-        <router-link to="/castBallot">Cast Ballot</router-link>&nbsp;
+			<ul>
+        <router-link  style="background:#2c3e50;" to="/">Home</router-link>         
+        <router-link  to="/castBallot">Cast Vote</router-link>
         <!-- <router-link to="/QueryAll">QueryAll</router-link> -->
         <!-- <router-link to="/queryWithQueryString">Query by Type</router-link>&nbsp;
         <router-link to="/queryByKey">Query by Key</router-link>&nbsp; -->
-        <router-link to="/getCurrentStanding">Get Poll Standings</router-link>&nbsp;
-        <router-link to="/">Sign Up/Login</router-link>&nbsp;
-
+        <router-link to="/getCurrentStanding">Get Poll Standings</router-link>
+        <!-- <router-link tag="li"  to="/">Sign Up/Login</router-link>&nbsp; -->
+		</ul>
         </nav>
       <router-view></router-view>
+
+		<div>
+			
+		</div>
+
+
     </div>
+
 </template>
 
 <script>
@@ -20,6 +28,7 @@
 export default {
   name: 'app'  
 }
+
 </script>
 
 <style>
@@ -33,7 +42,7 @@ export default {
 }
 .chart-wrapper {
   width: 100%;
-  height: 700px;
+  height: 100%;
 }
 .echarts {
   width: 100%;
@@ -49,6 +58,7 @@ export default {
   position:fixed;
   padding-left:32%;
 }
+
 </style>
 
 <style scoped>
@@ -82,10 +92,12 @@ section, footer, header, aside, nav{
 --------------------------*/
 
 nav{
-  width: 99.8%;
+  width: 100%;
   display:inline-block;
 	margin:auto;
-	background-color:#0984e3; /*Background color*/
+	/*background-color:#0984e3; /*Background color*/
+  	background-image: linear-gradient(#2C3E50 , #3a6073);
+
 	box-shadow:0 1px 1px #2E4158;
 	border-radius:2px;
 }
@@ -136,9 +148,17 @@ p b{
 	text-transform:uppercase;
 	font-size:18px;
 }
-.resource {
+/* .resource {
   margin: 20px 0;
-}
+} */
 
+/* nav li.router-link-exact-active {
+   background-color: #4CA1AF;
+   cursor: pointer;
+ } */
+
+ .router-link-active{
+  background: #4CA1AF;
+}
 
 </style>
