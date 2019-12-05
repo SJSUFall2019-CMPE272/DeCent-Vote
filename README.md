@@ -20,6 +20,7 @@ It provides:<br>
 <h1> <b> User Persona </b> </h1>
 
 <img width="964" alt="Screen Shot 2019-11-13 at 6 00 54 PM" src="https://user-images.githubusercontent.com/5762548/68820268-9cb47580-063f-11ea-97ca-26b494d90624.png">
+<img width="964" src="https://github.com/SJSUFall2019-CMPE272/DeCent-Vote/blob/master/Jake.png">
 
 <h1> <b> Hill Statement</b> </h1>
 
@@ -35,7 +36,6 @@ Assuring that the vote cast remains influence free and untampered so as to prese
 <h1> <b> Architecture </b> </h1>
 
 ![image](https://user-images.githubusercontent.com/54567577/66628736-90f31080-ebb4-11e9-9d27-76ee4016257a.png)
-![image](https://github.com/SJSUFall2019-CMPE272/DeCent-Vote/blob/master/Jake.png)
 
 
 <br/>
